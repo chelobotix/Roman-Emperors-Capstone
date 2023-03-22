@@ -1,0 +1,63 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.searchContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #3d60a2;
+}
+
+.search {
+  width: 95%;
+  max-width: 500px;
+  height: 30px;
+  margin: 0 5px 0 5px;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid #3d60a2;
+  padding-left: 5px;
+}
+
+.dynastyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.li {
+  width: 50%;
+  max-width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.liOne {
+  background-color: #4369b0;
+}
+
+.liTwo {
+  background-color: #3d60a2;
+}
+
+.h2 {
+  width: 100%;
+  text-align: center;
+  background-color: #4369b2;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}

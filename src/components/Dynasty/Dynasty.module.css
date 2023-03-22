@@ -1,0 +1,50 @@
+.dynastyContainer {
+  width: 100%;
+  background-color: #4369b0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2 {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.h3 {
+  width: 40%;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.enter {
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+}
+
+.liOne {
+  background-color: #4369b0;
+}
+
+.liTwo {
+  background-color: #3d60a2;
+}

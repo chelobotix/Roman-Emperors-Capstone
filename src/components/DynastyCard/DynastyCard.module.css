@@ -1,0 +1,27 @@
+.link {
+  align-self: flex-end;
+}
+
+.enter {
+  width: 24px;
+  margin: 5px;
+}
+
+.img {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.h3 {
+  color: #fff;
+  align-self: flex-end;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.p {
+  color: #fff;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-right: 5px;
+}

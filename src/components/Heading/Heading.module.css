@@ -1,0 +1,8 @@
+.heading {
+  width: 100%;
+  height: 300px;
+  background-image: url("../../assets/images/headingImg.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center -39px;
+}
