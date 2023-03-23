@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
-import style from "./DynastyCard.module.css";
-import enter from "../../assets/images/enter.png";
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import style from './DynastyCard.module.css';
+import enter from '../../assets/images/enter.png';
 
 const DynastyCard = (props) => {
   const { name, count, img } = props;
@@ -15,6 +16,15 @@ const DynastyCard = (props) => {
       <p className={style.p}>{count}</p>
     </>
   );
+};
+
+DynastyCard.defaultProps = {
+  name: '', count: '', img: '',
+};
+DynastyCard.propTypes = {
+  name: PropTypes.string,
+  count: PropTypes.string,
+  img: PropTypes.string,
 };
 
 export default DynastyCard;

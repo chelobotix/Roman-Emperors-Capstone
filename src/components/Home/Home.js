@@ -1,13 +1,13 @@
-import { v4 as uuidv4 } from "uuid";
-import { useSelector } from "react-redux";
-import { useState, useEffect } from "react";
-import DynastyCard from "../DynastyCard/DynastyCard";
-import Heading from "../Heading/Heading";
-import style from "./Home.module.css";
-import romanHelmet from "../../assets/images/romanHelmet.png";
-import romanHelmet2 from "../../assets/images/romanHelmet2.png";
-import romanHelmet3 from "../../assets/images/romanHelmet3.png";
-import romanHelmet4 from "../../assets/images/romanHelmet4.png";
+import { v4 as uuidv4 } from 'uuid';
+import { useSelector } from 'react-redux';
+import { useState } from 'react';
+import DynastyCard from '../DynastyCard/DynastyCard';
+import Heading from '../Heading/Heading';
+import style from './Home.module.css';
+import romanHelmet from '../../assets/images/romanHelmet.png';
+import romanHelmet2 from '../../assets/images/romanHelmet2.png';
+import romanHelmet3 from '../../assets/images/romanHelmet3.png';
+import romanHelmet4 from '../../assets/images/romanHelmet4.png';
 
 const Home = () => {
   const state = useSelector((state) => state.emperors);
@@ -16,10 +16,12 @@ const Home = () => {
   let result = [];
 
   const handlerSearch = (e) => {
-    if (e.target.value === "") {
+    if (e.target.value === '') {
       result = [...state.dynasty];
     } else {
-      result = state.dynasty.filter((data) => data.name.toLowerCase().includes(e.target.value.toLowerCase()));
+      result = state.dynasty.filter((data) => (
+        data.name.toLowerCase().includes(e.target.value.toLowerCase())
+      ));
     }
     setSearchDynasty([...result]);
   };

@@ -1,26 +1,22 @@
 import '@testing-library/jest-dom/extend-expect';
 import renderer from 'react-test-renderer';
-import { Provider } from 'react-redux';
-import { render, screen, fireEvent } from '@testing-library/react';
-import configureStore from 'redux-mock-store';
+import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import DynastyCard from '../DynastyCard/DynastyCard';
 
 const dynasty = {
-  name: "Gordian",
+  name: 'Gordian',
   count: 22,
 };
 
-
 describe('Home Rome Dynasty', () => {
   test('Get Dynasty Name', () => {
-    console.log(dynasty.name)
     render(
       <BrowserRouter>
         <DynastyCard
           name={dynasty.name}
           count={dynasty.count}
-          img='emperor.jpg'
+          img="emperor.jpg"
         />
       </BrowserRouter>,
     );
@@ -34,7 +30,7 @@ describe('Home Rome Dynasty', () => {
         <DynastyCard
           name={dynasty.name}
           count={dynasty.count}
-          img='emperor.jpg'
+          img="emperor.jpg"
         />
       </BrowserRouter>,
     ).toJSON();

@@ -1,8 +1,8 @@
-import back from "../../assets/images/back.png";
-import settings from "../../assets/images/settings.png";
-import mic from "../../assets/images/mic.png";
-import style from "./Header.module.css";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+import back from '../../assets/images/back.png';
+import settings from '../../assets/images/settings.png';
+import mic from '../../assets/images/mic.png';
+import style from './Header.module.css';
 
 const Header = () => (
   <header className={style.header}>

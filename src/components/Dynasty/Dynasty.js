@@ -1,9 +1,9 @@
-import { v4 as uuidv4 } from "uuid";
-import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
-import { useSelector } from "react-redux";
-import enter from "../../assets/images/enter.png";
-import style from "./Dynasty.module.css";
+import { v4 as uuidv4 } from 'uuid';
+import { Link, useParams } from 'react-router-dom';
+
+import { useSelector } from 'react-redux';
+import enter from '../../assets/images/enter.png';
+import style from './Dynasty.module.css';
 
 const Dynasty = () => {
   const state = useSelector((state) => state.emperors);

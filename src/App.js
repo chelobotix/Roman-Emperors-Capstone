@@ -1,12 +1,12 @@
-import "./App.css";
-import { BrowserRouter, Routes, Route, Outlet, Link, NavLink } from "react-router-dom";
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchEmperors } from "./redux/features/emperorsSlice";
-import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
-import Dynasty from "./components/Dynasty/Dynasty";
-import Emperor from "./components/Emperor/Emperor";
+import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchEmperors } from './redux/features/emperorsSlice';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Dynasty from './components/Dynasty/Dynasty';
+import Emperor from './components/Emperor/Emperor';
 
 function App() {
   const dispatch = useDispatch();
@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     dispatch(fetchEmperors());
-  }, []);
+  }, [dispatch]);
 
   if (!state.emperorsArray) {
     return <h2>Loading...</h2>;

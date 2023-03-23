@@ -1,5 +1,5 @@
-import { configureStore } from "@reduxjs/toolkit";
-import emperorsReducer from "../features/emperorsSlice";
+import { configureStore } from '@reduxjs/toolkit';
+import emperorsReducer from '../features/emperorsSlice';
 
 const store = configureStore({
   reducer: {

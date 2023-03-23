@@ -1,5 +1,5 @@
-import style from "./Heading.module.css";
+import style from './Heading.module.css';
 
-const Heading = () => <div className={style.heading}></div>;
+const Heading = () => <div className={style.heading} />;
 
 export default Heading;

@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 const initialState = {
   emperorsArray: null,
@@ -8,16 +8,15 @@ const initialState = {
   isError: false,
 };
 
-export const fetchEmperors = createAsyncThunk("get/emperors", async () => {
-  const url =
-    "https://documentation-resources.opendatasoft.com/api/records/1.0/search/?dataset=roman-emperors&q=&lang=en&rows=68&sort=index&facet=dynasty";
+export const fetchEmperors = createAsyncThunk('get/emperors', async () => {
+  const url = 'https://documentation-resources.opendatasoft.com/api/records/1.0/search/?dataset=roman-emperors&q=&lang=en&rows=68&sort=index&facet=dynasty';
   const response = await fetch(url);
-  let data = await response.json();
+  const data = await response.json();
   return data;
 });
 
 export const emperorsSlice = createSlice({
-  name: "Emperors",
+  name: 'Emperors',
   initialState,
   extraReducers: (builder) => {
     builder.addCase(fetchEmperors.pending, (state) => ({

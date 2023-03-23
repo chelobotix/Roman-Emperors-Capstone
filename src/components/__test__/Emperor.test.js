@@ -15,14 +15,14 @@ const emperorsArray = {
         description: 'Description Test',
         reserved: false,
       },
-    }
-  ]
+    },
+  ],
 };
 
 const mockStore = configureStore([]);
 const initialState = {
   emperors: {
-    emperorsArray: emperorsArray,
+    emperorsArray,
   },
 };
 

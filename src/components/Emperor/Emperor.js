@@ -1,6 +1,6 @@
-import { useParams } from "react-router-dom";
-import { useSelector } from "react-redux";
-import style from "./Emperor.module.css";
+import { useParams } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import style from './Emperor.module.css';
 
 const Emperor = () => {
   const state = useSelector((state) => state.emperors);
@@ -9,7 +9,10 @@ const Emperor = () => {
 
   return (
     <div className={style.emperorContainer}>
-      <h2 className={style.h2}>Emperor {emperorDetails[0].fields.name}</h2>
+      <h2 className={style.h2}>
+        Emperor
+        {emperorDetails[0].fields.name}
+      </h2>
       <img src={emperorDetails[0].fields.image} alt={name} className={style.img} />
       <ul className={style.ul}>
         <li className={style.li}>
