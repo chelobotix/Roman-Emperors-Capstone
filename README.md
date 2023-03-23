@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="https://user-images.githubusercontent.com/65084923/225158143-61776e1f-cec5-47c6-9be5-53de78fe035d.jpg" alt="logo" width="350"  height="auto" />
+  <img src="https://user-images.githubusercontent.com/65084923/227249151-5c9fda8d-8ab8-41e4-945d-ebd4b36a5071.jpg" alt="logo" width="350"  height="auto" />
   <br/>
   <img src="https://user-images.githubusercontent.com/65084923/220199943-ce6cd5da-d55e-4149-a0ac-8c588216d81f.png" alt="logo" width="200"  height="auto" />
   <br/>
@@ -11,6 +11,10 @@
 
   <h3><b>Roman Emperors</b></h3>
   <h3><b>Roman Emperors - React & Redux Microverse Capstone Project Module 3</b></h3>
+  
+  <img src="https://user-images.githubusercontent.com/65084923/227247099-f4c5cecc-9b37-427e-8222-e98b8382823d.jpg" alt="logo" width="200"  height="auto" />
+  <img src="https://user-images.githubusercontent.com/65084923/227248276-278e6f39-dc77-4a65-b1f1-0368ea35a7fb.jpg" alt="logo" width="200"  height="auto" />
+  <img src="https://user-images.githubusercontent.com/65084923/227248445-b3c77feb-9ffa-4362-8dd1-35a6894dfecb.jpg" alt="logo" width="200"  height="auto" />
 
 </div>
 
@@ -58,7 +62,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Dynasty page**
+- **Dynasty page with search function**
 - **Emperor Dinasty Page**
 - **Emperor Details Page**
 - **Routing with React Route**
@@ -69,7 +73,10 @@
 
 ## 🧑🏻‍💻 Live Demo <a name="live-demo"></a>
 
-coming soon...
+<a href="https://roman-emperors.onrender.com">Visit the Live Demo</a>
+
+<a href="https://www.loom.com/share/d7dd06204ab34f528737095e9a0982ab">Visit my Loom Presentaion Video</a>
+
 <br/>
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -84,7 +91,7 @@ Clone this repository to your desired folder:
   https://github.com/chelobotix/Roman-Emperors-Capstone.git
 ```
 
-To install the necessary dependencies, you can run:
+To install the necessary dependencies, you should run:
 
 ### `npm install`
 
@@ -92,10 +99,10 @@ To install the necessary dependencies, you can run:
 
 In the project directory, you can run:
 
-### `npm run dev`
+### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:5173/](http://localhost:5173/) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -104,6 +111,20 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
