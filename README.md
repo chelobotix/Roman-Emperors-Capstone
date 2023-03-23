@@ -1,15 +1,101 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <img src="https://user-images.githubusercontent.com/65084923/225158143-61776e1f-cec5-47c6-9be5-53de78fe035d.jpg" alt="logo" width="350"  height="auto" />
+  <br/>
+  <img src="https://user-images.githubusercontent.com/65084923/220199943-ce6cd5da-d55e-4149-a0ac-8c588216d81f.png" alt="logo" width="200"  height="auto" />
+  <br/>
+  <img src="https://user-images.githubusercontent.com/65084923/220200035-01fa5e08-af6a-495b-b597-55157a2b7d95.gif" alt="logo" />
+  <br/>
+
+  <h3><b>Roman Emperors</b></h3>
+  <h3><b>Roman Emperors - React & Redux Microverse Capstone Project Module 3</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+
+- [🧑🏻‍💻 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Available Scripts](#available-scripts)
+  - [Clone](#clone)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+# 📖 Roman Emperors - React & Redux Microverse Capstone Project Module 3<a name="about-project"></a>
+
+> Roman Emperors React & Redux App developed with Nodejs, Html, Css, Js, Webpack, React and Redux
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/JavaScript">Vanilla Javascript</a></li>
+    <li><a href="https://webpack.js.org/">Webpack</a></li>
+    <li><a href="https://react.org/">React</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Dynasty page**
+- **Emperor Dinasty Page**
+- **Emperor Details Page**
+- **Routing with React Route**
+- **API connection using Redux Toolkit AsyncThunk**
+- **Css module Style**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🧑🏻‍💻 Live Demo <a name="live-demo"></a>
+
+coming soon...
+<br/>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and use as a template for your own portafolio site, follow these steps.
+
+### Clone <a name="clone"></a>
+
+Clone this repository to your desired folder:
+
+```sh
+  https://github.com/chelobotix/Roman-Emperors-Capstone.git
+```
+
+To install the necessary dependencies, you can run:
+
+### `npm install`
+
+## 🤖 Available Scripts <a name="available-scripts"></a>
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5173/](http://localhost:5173/) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -19,52 +105,60 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- AUTHOR -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 👥 Author <a name="authors"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👤 **Author1**
 
-### `npm run eject`
+: Marcelo Alarcon Barrenechea
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🇧🇴 Bolivia 💓
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- GitHub: [@chelobotix](https://github.com/chelobotix)
+- Linkedin: [Marcelo Alarcon](https://www.linkedin.com/in/marceloalarconb/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🔭 Future Features <a name="future-features"></a>
 
-## Learn More
+- [ ] **Storage**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing <a name="contributing"></a>
 
-### Code Splitting
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+## ⭐️ Show your support <a name="support"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you like this project please let me know
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-### Advanced Configuration
+My mother. Let's play until the end together ❤️ with 🧠
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deployment
+## ❓ FAQ <a name="faq"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Is there any restriction to adapting the page to other porpuse??**
 
-### `npm run build` fails to minify
+  - No problem.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](<a href="./licence">License</a>) licensed.
+
+<a href="./licence">License</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
