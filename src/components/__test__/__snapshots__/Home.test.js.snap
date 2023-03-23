@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Home Tree 1`] = `
+Array [
+  <div
+    className="heading"
+  />,
+  <div
+    className="mainContainer"
+  >
+    <div
+      className="searchContainer"
+    >
+      <input
+        className="search"
+        onChange={[Function]}
+        placeholder="Search By Dynasty..."
+        type="text"
+      />
+    </div>
+    <div
+      className="dynastyContainer"
+    >
+      <h2
+        className="h2"
+      >
+        Dynasty
+      </h2>
+      <ul
+        className="ul"
+      >
+        <li
+          className="li liOne"
+        >
+          <a
+            className="link"
+            href="/dynasty/Augustus"
+            onClick={[Function]}
+          >
+            <img
+              alt="enter"
+              className="enter"
+              src="enter.png"
+            />
+          </a>
+          <img
+            alt="Dynasty"
+            className="img"
+            src="romanHelmet2.png"
+          />
+          <h3
+            className="h3"
+          >
+            Augustus
+          </h3>
+          <p
+            className="p"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;

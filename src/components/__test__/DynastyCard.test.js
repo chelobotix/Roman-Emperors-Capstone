@@ -3,62 +3,43 @@ import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import { render, screen, fireEvent } from '@testing-library/react';
 import configureStore from 'redux-mock-store';
+import { BrowserRouter } from 'react-router-dom';
 import DynastyCard from '../DynastyCard/DynastyCard';
 
-const dynasty = [
-  {
-    name: "Gordian",
-    count: 22,
-  },
-];
-
-const mockStore = configureStore([]);
-const initialState = {
-  emperors: {
-    dynasty: dynasty,
-  },
+const dynasty = {
+  name: "Gordian",
+  count: 22,
 };
 
-const store = mockStore(initialState);
 
 describe('Home Rome Dynasty', () => {
   test('Get Dynasty Name', () => {
+    console.log(dynasty.name)
     render(
-      <Provider store={store}>
-        <ul>
-          <li>
-            <DynastyCard
-              name={dynasty.name}
-              count={dynasty.count}
-              img={'emperor.jpg'}
-            />
-          </li>
-        </ul>
-      </Provider>,
+      <BrowserRouter>
+        <DynastyCard
+          name={dynasty.name}
+          count={dynasty.count}
+          img='emperor.jpg'
+        />
+      </BrowserRouter>,
     );
     const h3 = screen.getByRole('heading', { level: 3 });
-    expect(h3).toHaveTextContent('Mission test');
+    expect(h3).toHaveTextContent('Gordian');
   });
 
-  // test('Mission Tree', () => {
-  //   const tree = renderer.create(
-  //     <Provider store={store}>
-  //       <table>
-  //         <tbody>
-  //           <tr>
-  //             <Mission
-  //               id={missionsArray[0].mission_id}
-  //               name={missionsArray[0].mission_name}
-  //               description={missionsArray[0].description}
-  //               reserved={missionsArray[0].reserved}
-  //             />
-  //           </tr>
-  //         </tbody>
-  //       </table>
-  //     </Provider>,
-  //   ).toJSON();
-  //   expect(tree).toMatchSnapshot();
-  // });
+  test('Dynasty Card Tree', () => {
+    const tree = renderer.create(
+      <BrowserRouter>
+        <DynastyCard
+          name={dynasty.name}
+          count={dynasty.count}
+          img='emperor.jpg'
+        />
+      </BrowserRouter>,
+    ).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 
   // test('Click button text', () => {
   //   render(

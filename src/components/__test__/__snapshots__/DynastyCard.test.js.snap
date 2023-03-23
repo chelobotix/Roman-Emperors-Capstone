@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Rome Dynasty Dynasty Card Tree 1`] = `
+Array [
+  <a
+    className="link"
+    href="/dynasty/Gordian"
+    onClick={[Function]}
+  >
+    <img
+      alt="enter"
+      className="enter"
+      src="enter.png"
+    />
+  </a>,
+  <img
+    alt="Dynasty"
+    className="img"
+    src="emperor.jpg"
+  />,
+  <h3
+    className="h3"
+  >
+    Gordian
+  </h3>,
+  <p
+    className="p"
+  >
+    22
+  </p>,
+]
+`;

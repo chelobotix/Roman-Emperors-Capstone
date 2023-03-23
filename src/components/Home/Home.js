@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from "uuid";
 import { useSelector } from "react-redux";
 import { useState, useEffect } from "react";
 import DynastyCard from "../DynastyCard/DynastyCard";
+import Heading from "../Heading/Heading";
 import style from "./Home.module.css";
 import romanHelmet from "../../assets/images/romanHelmet.png";
 import romanHelmet2 from "../../assets/images/romanHelmet2.png";
@@ -11,7 +12,6 @@ import romanHelmet4 from "../../assets/images/romanHelmet4.png";
 const Home = () => {
   const state = useSelector((state) => state.emperors);
   const [searchDynasty, setSearchDynasty] = useState([...state.dynasty]);
-  console.log(searchDynasty);
   const imgArray = [romanHelmet, romanHelmet2, romanHelmet3, romanHelmet4];
   let result = [];
 
@@ -21,7 +21,6 @@ const Home = () => {
     } else {
       result = state.dynasty.filter((data) => data.name.toLowerCase().includes(e.target.value.toLowerCase()));
     }
-    console.log(result);
     setSearchDynasty([...result]);
   };
 
@@ -53,15 +52,18 @@ const Home = () => {
   };
 
   return (
-    <div className={style.mainContainer}>
-      <div className={style.searchContainer}>
-        <input type="text" onChange={handlerSearch} placeholder="Search By Dynasty..." className={style.search} />
+    <>
+      <Heading />
+      <div className={style.mainContainer}>
+        <div className={style.searchContainer}>
+          <input type="text" onChange={handlerSearch} placeholder="Search By Dynasty..." className={style.search} />
+        </div>
+        <div className={style.dynastyContainer}>
+          <h2 className={style.h2}>Dynasty</h2>
+          {listStyle()}
+        </div>
       </div>
-      <div className={style.dynastyContainer}>
-        <h2 className={style.h2}>Dynasty</h2>
-        {listStyle()}
-      </div>
-    </div>
+    </>
   );
 };
 

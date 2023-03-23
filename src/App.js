@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchEmperors } from "./redux/features/emperorsSlice";
 import Header from "./components/Header/Header";
-import Heading from "./components/Heading/Heading";
 import Home from "./components/Home/Home";
 import Dynasty from "./components/Dynasty/Dynasty";
 import Emperor from "./components/Emperor/Emperor";
@@ -25,7 +24,6 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
-        <Heading />
       </div>
       <Routes>
         <Route index element={<Home />} />

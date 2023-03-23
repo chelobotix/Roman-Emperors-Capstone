@@ -6,7 +6,6 @@ const Emperor = () => {
   const state = useSelector((state) => state.emperors);
   const { name } = useParams();
   const emperorDetails = state.emperorsArray.records.filter((data) => data.fields.name === name);
-  console.log(emperorDetails);
 
   return (
     <div className={style.emperorContainer}>

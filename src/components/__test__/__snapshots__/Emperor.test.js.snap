@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Emperor Home Tree 1`] = `
+<div
+  className="emperorContainer"
+>
+  <h2
+    className="h2"
+  >
+    Emperor 
+    Augustus
+  </h2>
+  <img
+    alt="Augustus"
+    className="img"
+  />
+  <ul
+    className="ul"
+  >
+    <li
+      className="li"
+    >
+      <p
+        className="p1"
+      >
+        Full Name
+      </p>
+      <p
+        className="p2"
+      />
+    </li>
+    <li
+      className="li"
+    >
+      <p
+        className="p1"
+      >
+        Reign Start
+      </p>
+      <p
+        className="p2"
+      />
+    </li>
+    <li
+      className="li"
+    >
+      <p
+        className="p1"
+      >
+        Reign End
+      </p>
+      <p
+        className="p2"
+      />
+    </li>
+    <li
+      className="li"
+    >
+      <p
+        className="p1"
+      >
+        Birth City
+      </p>
+      <p
+        className="p2"
+      />
+    </li>
+    <li
+      className="li"
+    >
+      <p
+        className="p1"
+      >
+        Birth Province
+      </p>
+      <p
+        className="p2"
+      />
+    </li>
+    <li
+      className="li"
+    >
+      <p
+        className="p1"
+      >
+        Era
+      </p>
+      <p
+        className="p2"
+      />
+    </li>
+    <li
+      className="li"
+    >
+      <p
+        className="p1"
+      >
+        Date of Dead
+      </p>
+      <p
+        className="p2"
+      />
+    </li>
+    <li
+      className="li"
+    >
+      <p
+        className="p1"
+      >
+        Killer
+      </p>
+      <p
+        className="p2"
+      />
+    </li>
+    <li
+      className="li"
+    >
+      <p
+        className="p1"
+      >
+        Cause of Dead
+      </p>
+      <p
+        className="p2"
+      />
+    </li>
+  </ul>
+</div>
+`;
