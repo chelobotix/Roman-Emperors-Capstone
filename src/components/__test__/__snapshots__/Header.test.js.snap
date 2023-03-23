@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Header Tree 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="headerContainer"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        className="img"
+        src="back.png"
+      />
+    </a>
+    <h1
+      className="h1"
+    >
+      Roman Emperors
+    </h1>
+    <div>
+      <img
+        alt=""
+        className="img"
+        src="settings.png"
+      />
+      <img
+        alt=""
+        className="img"
+        src="mic.png"
+      />
+    </div>
+  </div>
+</header>
+`;
