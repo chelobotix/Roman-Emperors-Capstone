@@ -41,6 +41,8 @@
 # 📖 Roman Emperors - React & Redux Microverse Capstone Project Module 3<a name="about-project"></a>
 
 > Roman Emperors React & Redux App developed with Nodejs, Html, Css, Js, Webpack, React and Redux
+> 
+> Welcome to Emperors' Archive! Dive into the fascinating history of the Roman Empire through our comprehensive website. Built using React and Redux, our platform offers a seamless user experience. With our API connection, you'll have access to detailed information about all the Roman Emperors, from Augustus to Constantine and beyond. Discover their reigns, achievements, and intriguing stories. Explore the rise and fall of this iconic empire through Emperors' Archive. Join us on this historical journey today!
 
 ## 🛠 Built With <a name="built-with"></a>
 
